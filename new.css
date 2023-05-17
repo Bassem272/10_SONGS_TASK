@@ -43,8 +43,9 @@ h1{ font-family:  "Archivo", sans-serif;;
 
 
 
-
-
+.main.hidden {
+  display: none;
+}
 .main {
     width: 620px;
     height: auto ;
