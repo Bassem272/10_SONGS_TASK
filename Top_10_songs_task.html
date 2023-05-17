@@ -108,27 +108,27 @@
      
      
      <script>
-       // Select the required elements
+      
 const toggleButton = document.getElementById('toggleButton');
 const mainDiv = document.querySelector('.main');
 const showButton = document.getElementById('showButton');
 
-// Hide the main div and show the toggle button initially
+
 mainDiv.classList.add('hidden');
 toggleButton.classList.remove('hidden');
 
-// Add click event listener to the toggle button
+
 toggleButton.addEventListener('click', function() {
-  mainDiv.classList.remove('hidden'); // Show the main div
-  toggleButton.classList.add('hidden'); // Hide the toggle button
-  showButton.style.display = 'block'; // Show the show button
+  mainDiv.classList.remove('hidden'); 
+  toggleButton.classList.add('hidden'); 
+  showButton.style.display = 'block'; 
 });
 
-// Add click event listener to the show button
+
 showButton.addEventListener('click', function() {
-  mainDiv.classList.add('hidden'); // Hide the main div
-  toggleButton.classList.remove('hidden'); // Show the toggle button
-  showButton.style.display = 'none'; // Hide the show button
+  mainDiv.classList.add('hidden');
+  toggleButton.classList.remove('hidden'); 
+  showButton.style.display = 'none'; 
 });
 
      </script>
